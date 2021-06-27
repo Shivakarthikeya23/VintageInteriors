@@ -1,12 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Vintage interiors</title>
+  <link rel="icon" href="img/titlelogo1.png" class="titlelogo" type="image/icon type">
 </head>
+
 <body>
-    
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <!-- <h1><span>S</span>haif <span>A</span>rfan</h1> -->
+            <img src="./img/logo.png" id="logo" height="100px" width="100px">
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Welcome to Vintage Interiors <span></span></h1>
+        <h1>- Virtual World <span></span></h1>
+        <h1>Make Your Desires come true with our Designs <span></span></h1>
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>ices</span></h1>
+        <p>So far we have completed 400+ projects in Telangana and 300+ projects in other states of India. 
+        We have experts at your service . Be it professional or commercial design we never dissapoint you.
+        As we have renowned expert designers, we have fulfilled our customers' desires until the date!
+
+        </p>
+      </div>
+      <div class="service-bottom">
+        
+        <div class="service-item">
+          <!-- <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div> -->
+          <h2>Residential Design</h2>
+          <p>We have done approximately 200+ Residential Designs all over india. We have provided special
+              discount for the customers who gave contract to us for the third time.
+          </p>
+        </div>
+        <div class="service-item">
+          <!-- <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div> -->
+          <h2>Commercial Design</h2>
+          <p>With our upcoming 20 projects we will be reaching the 200 mark in Commercial Designs.We have done Commercial Designs 
+              only the in the field.Thus ours is critically acclaimed company  </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title"> Our<span> Projects </span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>RockVilla Apartments
+            </h1>
+            <h2>Being Secure </h2>
+            <p>This is a recent project we have completed which is located in nampally, Hyderabad
+                This apartments have good security and all the facilities
+            </p>
+          </div>
+          <div class="project-img">
+            <img id="apt" onclick="func()" src="./img/apartment.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>ValleyView Villa</h1>
+            <h2>Being Independent</h2>
+            <p>This is a beautiful residence located near Margo Beach, Goa. We have completed this project in just span of 
+                2 months with our skilled labours under experts. </p>
+          </div>
+          <div class="project-img">
+            <img id="villa" onclick="func()" src="./img/villa.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>SAS IT Solutions</h1>
+            <h2>The future</h2>
+            <p>We are very delighful to work for the software company like SAS IT Solutions. We have completed this project 
+                in the span of 4 months though the given deadline is 6 months 😀 </p>
+          </div>
+          <div class="project-img">
+            <img id="itsol" onclick="func()" src="./img/itsol.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>C⭐ Coffee Shop</h1>
+            <h2>Relax Time </h2>
+            <p> The coolest project so far we have done. Cause personally after this project we have agreed another
+                3 coffee shops and 2 Restaurants. 
+            </p>
+          </div>
+          <div class="project-img">
+            <img id="coffee" onclick="func()" src="./img/coffee.jpg" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Double Bedroom Flats</h1>
+            <h2>Government Project</h2>
+            <p>We are very proud to be part of this project because this is the first time we united with the government
+                . And this project took 14 months . After this we have done another 2 apartments located nearby.
+            </p>
+          </div>
+          <div class="project-img">
+            <img id="dbflats" onclick="func()" src="./img/dbflat.jpg" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/aboutus.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title"><span>About</span> Us</h1>
+        <h2>Best Designers in Hyderabad</h2>
+        <p>We have started this journey 20 years back with less investment. Throughout the Journey we believed in
+            one thing <b><i>"Customers Happiness is the Employee Success"</i></b>. And we excelled in our work by continous efforts and
+            hardwork. When we started the company we are 3 but now we have 150 workers and 300 customers with us . Thanks to
+            each customer who believed in us. We hope we never dissapoint you with our work. We believed in our hard work and this made us succeed in this business ride!
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="img/phoneic.gif"/></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+91 9539264728</h2>
+            <h2>040 234 123 1234</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="img/emailic.gif"/></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>vintageinteriors@gmail.com</h2>
+            <h2>interios.vintage@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="img/addressic.gif"/></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Behind Peddhama temple, jubliee Hills, Hyderabad</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Vin</span>tage <span>In</span>teriors</h1>
+      </div>
+      <h2>Your Thoughts = Our Work</h2>
+      <p>Copyright © 2021 vintageInteriors. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./index.js"></script>
 </body>
+
 </html>
